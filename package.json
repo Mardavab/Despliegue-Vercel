@@ -1,5 +1,6 @@
 {
   "name": "vercel",
+  "version": "1.0.0",
   "description": "API desplegada en Vercel",
   "type": "module",
   "main": "index.js",
@@ -11,5 +12,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.100.0"
+  }
 }
